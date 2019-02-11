@@ -16,9 +16,10 @@ public class MathTester {
             System.out.println(firstWord+firstNumber+secondNumber);
             System.out.println(secondWord+(firstNumber+secondNumber));
             System.out.println("The first number + the second number is "+(firstNumber+secondNumber));
+            System.out.println("The second number - the first number is "+(secondNumber-firstNumber));
             System.out.println("The first word + the sum of the first number and second number is "+ firstWord+(firstNumber+secondNumber));
             System.out.println("The first number * the second number is "+firstNumber*secondNumber);
-            System.out.println("The second number divided by the first number is "+(secondNumber/firstNumber));
+            System.out.println("The modulus of the second number by the first number is "+(secondNumber/firstNumber));
             System.out.println();
 
 
