@@ -16,6 +16,7 @@ public class MathTester {
             System.out.println(firstNumber+secondNumber);
             System.out.println(firstWord+(firstNumber+secondNumber));
             System.out.println(firstNumber*secondNumber);
+            System.out.println(secondNumber/firstNumber);
 
 
         }
