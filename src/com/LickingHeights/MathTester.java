@@ -13,10 +13,13 @@ public class MathTester {
             secondNumber = 4;
 
             System.out.println(firstWord+secondWord);
-            System.out.println(firstNumber+secondNumber);
-            System.out.println(firstWord+(firstNumber+secondNumber));
-            System.out.println(firstNumber*secondNumber);
-            System.out.println(secondNumber/firstNumber);
+            System.out.println(firstWord+firstNumber+secondNumber);
+            System.out.println(secondWord+(firstNumber+secondNumber));
+            System.out.println("The first number + the second number is "+(firstNumber+secondNumber));
+            System.out.println("The first word + the sum of the first number and second number is "+ firstWord+(firstNumber+secondNumber));
+            System.out.println("The first number * the second number is "+firstNumber*secondNumber);
+            System.out.println("The second number divided by the first number is "+(secondNumber/firstNumber));
+            System.out.println();
 
 
         }
